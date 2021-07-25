@@ -1,0 +1,57 @@
+[{
+  "repositories": [
+    "bssw-tutorial/bssw-tutorial.github.io",
+    "bssw-tutorial/presentations",
+    "bssw-tutorial/hello-numerical-world",
+    "bssw-tutorial/tutorial-management"
+  ],
+  "milestones": [{
+    "title": "2021-03 Improving Scientific Software",
+    "state": "closed",
+    "due_on": "2021-03-26T00:00:00Z"
+  }, {
+    "title": "2021-04 ECP Annual Meeting",
+    "state": "closed",
+    "due_on": "2021-04-12T00:00:00Z"
+  }, {      
+    "title": "2021-06 ISC High Performance",
+    "state": "closed",
+    "due_on": "2021-06-24T00:00:00Z"
+  }, {      
+    "title": "2021-08 ATPESC",
+    "state": "open",
+    "due_on": "2021-08-12T00:00:00Z"
+  }, {      
+    "title": "2021-11 SC",
+    "state": "open",
+    "due_on": "2021-11-15T00:00:00Z"
+  }],
+  "labels": [{
+    "name": "bug",
+    "color": "d73a4a"
+  }, {
+    "name": "documentation",
+    "color": "0075ca"
+  }, {
+    "name": "duplicate",
+    "color": "cfd3d7"
+  }, {
+    "name": "enhancement",
+    "color": "a2eeef"
+  }, {
+    "name": "good first issue",
+    "color": "7057ff"
+  }, {
+    "name": "help wanted",
+    "color": "008672"
+  }, {
+    "name": "invalid",
+    "color": "e4e669"
+  }, {
+    "name": "question",
+    "color": "d876e3"
+  }, {
+    "name": "wontfix",
+    "color": "ffffff"
+  }]  
+}]
