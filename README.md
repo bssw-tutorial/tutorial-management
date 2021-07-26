@@ -28,3 +28,7 @@ We use [github-sync-labels-milestones](https://www.npmjs.com/package/github-sync
     - Update the state of any events which have already taken place
 2. Get your GitHub [Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) (shown as `<pat>` below)
 3. Run `npx github-sync-labels-milestones -t <pat> -c master-labels-milestones.json -v`
+
+## Synchronizing Actions
+
+At present, the only GitHub Action used across all development repositories is `issues-to-project.yml` which automatically assigns all opened or reopened issues and PRs to the [Organization-Level Project Board](#organization-level-project-board).  It should be in `.github/workflows` in all repositories, and should be the same.
