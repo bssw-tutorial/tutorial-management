@@ -30,6 +30,11 @@ These are the steps generally necessary to prepare and deliver a specific tutori
 * Update web site
 * Update presentations
 * Update master agenda slide
+* Create `presentations/final_presentations/<event>`
+* Create initial FigShare record
+    - Reserve DOI
+    - Record DOI in `presentations/final_presentations/<event>/doi.txt`
+    - Record DOI in web site metadata
 * Update master license slide
 * Update individual presentations
     - Title slide
@@ -42,9 +47,6 @@ These are the steps generally necessary to prepare and deliver a specific tutori
 * Put PDFs in event directory
 * Commit PDFs to presentations repository
 * Create FigShare record for event, uploading PDFs
-* Record DOI
-    - In `presentations/final_presentations/<event>/doi.txt`
-    - In web site metadata
 * Create zip of PDFs
 * Tag presentations repository for event
 * Create GitHub release for the event, with zip of PDFs
