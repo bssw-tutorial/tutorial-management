@@ -17,7 +17,7 @@ The following repositories are involved in the *development* of tutorial materia
 
 ## Student Repositories
 
-Repositories named following the pattern `hello-numerical-world-YYYY-MM-venue` or `hello-numerical-world-YYYY-MM-DD-venue` are copies of `hello-numerical-world` made for each tutorial event.  This allows students in the tutorials to file issues and pull requests as part of the hands-on activities without turning the primary repository into a complete mess in the long term.
+Repositories named following the pattern `hello-numerical-world-YYYY-MM-DD-venue` following the same shorthand label used in the web site and in the presentations (for some older events `hello-numerical-world-YYYY-MM-venue`) are copies of `hello-numerical-world` made for each tutorial event.  The `.github/workflows` directory should be deleted in the student copy of the repository. This allows students in the tutorials to file issues and pull requests as part of the hands-on activities without turning the primary repository into a complete mess in the long term.
 
 ## Synchronizing Issues and Milestones
 
