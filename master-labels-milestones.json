@@ -23,8 +23,12 @@
     "due_on": "2021-08-12T00:00:00Z"
   }, {      
     "title": "2021-11 SC",
-    "state": "open",
+    "state": "closed",
     "due_on": "2021-11-15T00:00:00Z"
+  }, {      
+    "title": "2022-04 ISS",
+    "state": "open",
+    "due_on": "2022-04-09T00:00:00Z"
   }, {      
     "title": "Post-SC21 Sprint",
     "state": "open"
