@@ -3,7 +3,8 @@
     "bssw-tutorial/bssw-tutorial.github.io",
     "bssw-tutorial/presentations",
     "bssw-tutorial/hello-numerical-world",
-    "bssw-tutorial/tutorial-management"
+    "bssw-tutorial/tutorial-management",
+    "bssw-tutorial/simple-heateq"
   ],
   "milestones": [{
     "title": "2021-03 Improving Scientific Software",
