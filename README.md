@@ -1,34 +1,45 @@
 # Tutorial Management
 
-This repository is mostly issue-only, for the purposes of managing the activities of the BSSw tutorial team.  However it also includes data files and instructions to help keep things synchronized and connected across the multiple repositories within this organization that are part of the BSSw tutorial ecosystem.
+This repository has two main purposes:
 
-## Organization-Level Project Board
+* To provide a home for [issues](https://github.com/bssw-tutorial/tutorial-management/issues) that are not specific to one of the other repositories.
+* To provide documentation for the whole tutorial process.  Where appropriate, detailed documentation will be provided in other locations, but linked here.
 
-* [management](https://github.com/orgs/bssw-tutorial/projects/1)
+## Structure and Organization
 
-## Development Repositories
+The following information is not part of the tutorial process per se, but discusses the various repositories (also Google Drive) that are part of the BSSw tutorial ecosystem, how they relate to each other, and how they are kept in sync.
 
-The following repositories are involved in the *development* of tutorial materials.  All of these repositories should use the same set of issue labels and milestones (see [Synchronizing Issues and Milestones](#synchronizing-issues-and-milestones)).  Most (all?) of the issues in these repositories should appear on the [Organization-Level Project Board](#organization-level-project-board).
+* [Github organization structure and management](Github-organization-structure-and-management.md)
 
-* [bssw-tutorial.github.io](https://github.com/bssw-tutorial/bssw-tutorial.github.io)
-* [hello-numerical-world](https://github.com/bssw-tutorial/hello-numerical-world)
-* [presentations](https://github.com/bssw-tutorial/presentations)
-* [tutorial-management](https://github.com/bssw-tutorial/tutorial-management)
+## High-Level Tutorial Workflow
 
-## Student Repositories
+1) [Preparing a tutorial proposal](preparing-a-tutorial-proposal.md)
+2) Post-acceptance finalization (Tasks that should be done soon after receiving notification of acceptance of the tutorial)
+   - Add an issue for the event to the bssw-tutorial/tutorial-management [issue tracker](https://github.com/bssw-tutorial/tutorial-management/issues)
+   - Add an issue for the event to the ideas-productivity/project-management [issue tracker](https://github.com/ideas-productivity/project-management/issues)
+   - If appropriate, add it to the upcoming events list on the main page and Events pages of [https://ideas-productivity.org/](https://ideas-productivity.org/)
+   - Finalize agenda, preferably [using the spreadsheet](using-the-agenda-spreadsheet.md).
+   - Finalize plans for hands-on as part of the tutorial.
+   - Finalize staffing (presenters as well as helpers).
+   - Finalize plans for any specific enhancements or changes for the tutorial.
+   - [Start building the event page in the tutorial website](https://github.com/bssw-tutorial/bssw-tutorial.github.io/blob/main/README.md#creating-a-new-tutorial-event).
+3) Preparation
+   - Follow up on venue requirmeents
+      - Publicity information: bios, head shots, etc.
+      - Consent forms
+      - Travel/honorarium paperwork
+      - Advance deadlines for delivery of presentations, recordings, etc.
+   - [Update presentations](https://github.com/bssw-tutorial/presentations/blob/main/README.md#preparing-for-a-tutorial-event)
+   - Continue building the event page in the tutorial web site.
+      - [Transition to scheduled event](https://github.com/bssw-tutorial/bssw-tutorial.github.io/blob/main/README.md#transitioning-to-a-scheduled-event) once schedule is finalized
+      - [Fill out the event page](https://github.com/bssw-tutorial/bssw-tutorial.github.io/blob/main/README.md#filling-out-the-event-page) as the information is available.
+4) Delivery (including advance recordings)
+5) Post-delivery
 
-Repositories named following the pattern `hello-numerical-world-YYYY-MM-DD-venue` following the same shorthand label used in the web site and in the presentations (for some older events `hello-numerical-world-YYYY-MM-venue`) are copies of `hello-numerical-world` made for each tutorial event.  The `.github/workflows` directory should be deleted in the student copy of the repository. This allows students in the tutorials to file issues and pull requests as part of the hands-on activities without turning the primary repository into a complete mess in the long term.
+## Additional Documentation
 
-## Synchronizing Issues and Milestones
+Most of the information above has been presented from the workflow perspective. The process-level documentation may refer to (parts of) other documentation that is worth making visible as whole documents as well.
 
-We use [github-sync-labels-milestones](https://www.npmjs.com/package/github-sync-labels-milestones) to keep the issues and milestones in the [Development Repositories](#development-repositories) synchronized. The file `master-labels-milestones.json` is the configuration file.  It needs to be updated for each new milestone.  We're currently using GitHub's default set of labels.
-
-1. Update `master-labels-milestones.json`
-    - Add milestone for new tutorial event
-    - Update the state of any events which have already taken place
-2. Get your GitHub [Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) (shown as `<pat>` below)
-3. Run `npx github-sync-labels-milestones -t <pat> -c master-labels-milestones.json -v`
-
-## Synchronizing Actions
-
-At present, the only GitHub Action used across all development repositories is `issues-to-project.yml` which automatically assigns all opened or reopened issues and PRs to the [Organization-Level Project Board](#organization-level-project-board).  It should be in `.github/workflows` in all repositories, and should be the same.
+* bssw-tutorial.github.io website documentation: <https://github.com/bssw-tutorial/bssw-tutorial.github.io/blob/main/README.md>
+* [Using the Agenda Spreadsheet](using-the-agenda-spreadsheet.md)
+* [BSSw Tutorial Presentations](https://github.com/bssw-tutorial/presentations/blob/main/README.md)
