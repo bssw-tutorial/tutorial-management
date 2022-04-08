@@ -37,7 +37,7 @@ The following information is not part of the tutorial process per se, but discus
    - Upload presentations to FigShare and publish
    - [Create hands-on code repository for the event](create-hands-on-code-repository-for-the-event.md) (as appropriate)
    - Update artifacts on website
-4) Delivery (including advance recordings)
+4) [Delivering the tutorial](delivering-the-tutorial.md) (including advance recordings)
 5) Post-delivery
 
 ## Additional Documentation
