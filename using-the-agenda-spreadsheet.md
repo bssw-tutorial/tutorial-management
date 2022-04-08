@@ -14,7 +14,7 @@ You might find it useful to have a copy of the spreadsheet for *planning* purpos
   * When moving around items on the agenda, make sure the fixed points remain where they’re supposed to be.
 * **`Duration`** (column B) is the duration in minutes of each module.  You should change these entries to suit.
 * **`Time (<timezone>)`** (column C) is *calculated* from the start time (cell A1) and the durations (column B).  
-  * Make sure you have the formulas here, not values.
+  * **Make sure you have the formulas here, not values.**
   * Note that the formula for C3 is different from the rest.
   * This column has conditional formatting to highlight where the timeline does not line up with the fixed points in column A.
 * In some cases, additional columns may have been added, for example to provide information in another timezone.  These added columns may result in the columns referenced above shifting.  The additional columns may use/adapt some of the formulas of the above columns.
