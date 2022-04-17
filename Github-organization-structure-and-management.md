@@ -24,7 +24,7 @@ Repositories named following the pattern `hello-numerical-world-YYYY-MM-DD-venue
 We use [github-sync-labels-milestones](https://www.npmjs.com/package/github-sync-labels-milestones) to keep the issues and milestones in the [Development Repositories](#development-repositories) synchronized. The file `master-labels-milestones.json` is the configuration file.  It needs to be updated for each new milestone.  We're currently using GitHub's default set of labels.
 
 1. Update `master-labels-milestones.json`
-    - Add milestone for new tutorial event
+    - Add milestone for new tutorial event.  This should be the same as the `event-label` used elsewhere, e.g., `YYYY-MM-DD-venue`
     - Update the state of any events which have already taken place
 2. Get your GitHub [Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) (shown as `<pat>` below)
 3. Run `npx github-sync-labels-milestones -t <pat> -c master-labels-milestones.json -v`
