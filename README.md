@@ -15,6 +15,7 @@ The following information is not part of the tutorial process per se, but discus
 
 1) [Preparing a tutorial proposal](preparing-a-tutorial-proposal.md)
 2) Post-acceptance finalization (Tasks that should be done soon after receiving notification of acceptance of the tutorial)
+   - Add a milestone for the event to [master-labels-milestones.json](./master-labels-milestones.json) and [synchronize repositories](https://github.com/bssw-tutorial/tutorial-management/blob/main/Github-organization-structure-and-management.md#synchronizing-issues-and-milestones)
    - Add an issue for the event to the bssw-tutorial/tutorial-management [issue tracker](https://github.com/bssw-tutorial/tutorial-management/issues)
    - Add an issue for the event to the ideas-productivity/project-management [issue tracker](https://github.com/ideas-productivity/project-management/issues)
    - If appropriate, add it to the upcoming events list on the main page and Events pages of [https://ideas-productivity.org/](https://ideas-productivity.org/)
