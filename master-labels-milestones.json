@@ -28,23 +28,23 @@
     "due_on": "2021-11-15T00:00:00Z"
   }, {      
     "title": "2022-04 ISS",
-    "state": "open",
+    "state": "closed",
     "due_on": "2022-04-09T00:00:00Z"
  }, {      
     "title": "2022-05-02-ecpam",
     "previousTitles": ["2022-05 ECP AM", "2022-05-ecpam"],
-    "state": "open",
+    "state": "closed",
     "due_on": "2022-05-10T00:00:00Z"
  }, {      
     "title": "2022-05-29-isc",
     "previousTitles": ["2022-05 ISC", "2022-05-isc"],
-    "state": "open",
+    "state": "closed",
     "due_on": "2022-05-30T00:00:00Z"
  }, {      
-    "title": "2022-07-31-atpesc",
-    "previousTitles": ["2022-08 ATPESC", "2022-08-atpesc"],
+    "title": "2022-08-11-atpesc",
+    "previousTitles": ["2022-07-31-atpesc", "2022-08 ATPESC", "2022-08-atpesc"],
     "state": "open",
-    "due_on": "2022-08-13T00:00:00Z"
+    "due_on": "2022-08-12T07:59:59-0400"
  }, {      
     "title": "2022-11-13-sc",
     "previousTitles": ["2022-11 SC", "2022-11-sc"],
