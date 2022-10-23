@@ -43,13 +43,13 @@
  }, {      
     "title": "2022-08-11-atpesc",
     "previousTitles": ["2022-07-31-atpesc", "2022-08 ATPESC", "2022-08-atpesc"],
-    "state": "open",
+    "state": "closed",
     "due_on": "2022-08-12T07:59:59-0400"
  }, {      
     "title": "2022-11-13-sc",
     "previousTitles": ["2022-11 SC", "2022-11-sc"],
     "state": "open",
-    "due_on": "2022-11-19T00:00:00Z"
+    "due_on": "2022-11-14T07:59:59-0500"
  }, {      
     "title": "Post-SC21 Sprint",
     "state": "open"
