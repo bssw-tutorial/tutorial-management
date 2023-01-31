@@ -50,9 +50,13 @@
     "previousTitles": ["2022-11 SC", "2022-11-sc"],
     "state": "open",
     "due_on": "2022-11-14T07:59:59-0500"
+    }, {      
+      "title": "2023-02-06-ecpam",
+      "state": "open",
+      "due_on": "2023-02-07T06:59:59-0500"
  }, {      
     "title": "Post-SC21 Sprint",
-    "state": "open"
+    "state": "closed"
   }],
   "labels": [{
     "name": "bug",
