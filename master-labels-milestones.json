@@ -53,7 +53,7 @@
     }, {      
       "title": "2023-02-06-ecpam",
       "state": "open",
-      "due_on": "2023-02-07T06:59:59-0500"
+      "due_on": "2023-02-07T06:59:59-05:00"
  }, {      
     "title": "Post-SC21 Sprint",
     "state": "closed"
