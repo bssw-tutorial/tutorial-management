@@ -150,6 +150,16 @@
         "name": "external connection",
         "color": "273532",
         "description": "Possible points of connection/collaboration with outside resources/groups"
+      },
+      {
+        "name": "event preparation",
+        "color": "bfdadc",
+        "description": "Activities to prepare for a tutorial event"
+      },
+      {
+        "name": "event followup",
+        "color": "6AD0D3",
+        "description": "Activities following up after a tutorial event"
       }
     ]
   }
