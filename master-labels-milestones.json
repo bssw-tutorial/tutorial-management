@@ -117,8 +117,18 @@
       },
       {      
         "title": "2024-08-02-atpesc",
-        "state": "open",
+        "state": "closed",
         "due_on": "2024-08-03T11:59:59-04:00"
+      },
+      {      
+        "title": "2025-08-08-atpesc",
+        "state": "open",
+        "due_on": "2025-08-09T11:59:59-04:00"
+      },
+      {      
+        "title": "2025-11-16-sc",
+        "state": "open",
+        "due_on": "2025-11-17T11:59:59-04:00"
       },
       {
         "title": "Post-SC21 Sprint",
